@@ -31,8 +31,12 @@
     ],
     "main": [
         "./jquery.qtip.js",
-        "./basic/jquery.qtip.js"
+        "./jquery.qtip.css"
     ],
+    "dependencies": {
+        "jquery": ">=1.6.0",
+        "imagesloaded": ">=3.0.0"
+    },
     "ignore": [
         "bin"
     ]
